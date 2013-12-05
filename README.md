@@ -53,10 +53,10 @@ Armor Model
 
 Fight Model
 -----------
-users  :has_many users
-winner
-awarded_coins
-description   (Full description of damage inflicted, winner, coins, etc.)
+    users  :has_many users
+    winner
+    awarded_coins
+    description   (Full description of damage inflicted, winner, coins, etc.)
 
 
 Store Controller (Objects)
