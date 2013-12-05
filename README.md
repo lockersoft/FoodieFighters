@@ -36,18 +36,18 @@ User Model
     battles_won
     battles_lost
 
-Object Model
+Accessories Model
 ------------
     type            (Single Table Inheritance)
     name
     description
     price
 
-Weapon Model
+Weapon Model &lt; Accessories
 ------------
     damage_points
 
-Armor Model
+Armor Model &lt; Accessories
 -----------
     save_points
 
