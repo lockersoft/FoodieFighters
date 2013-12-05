@@ -1,4 +1,6 @@
 FoodieFighters::Application.routes.draw do
+  mount ApiDocs::Engine => '/api-docs'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

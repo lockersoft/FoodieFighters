@@ -9,3 +9,47 @@ Android mobile devices.
 
 Clients interact with the Fighting server through an established API.
 The server performs the fights and provides storage and statistics.
+
+
+User Model
+----------
+avatar_name
+email
+auth_token
+password
+salt
+
+race
+intelligence
+stamina
+agility
+strength
+
+selected_armor     :has_one  :armor
+selected_weapon    :has_one  :weapon
+
+max_hit_points
+current_hit_points
+level
+coins
+battles_won
+battles_lost
+
+Object Model
+------------
+type            (Single Table Inheritance)
+name
+description
+price
+
+Weapon Model
+------------
+damage_points
+
+Armor Model
+-----------
+save_points
+
+Store Controller (Objects)
+--------------------------
+
