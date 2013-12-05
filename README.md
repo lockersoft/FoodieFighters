@@ -14,6 +14,7 @@ The server performs the fights and provides storage and statistics.
 User Model
 ----------
     avatar_name
+    avatar_image
     email
     auth_token
     password
@@ -49,6 +50,14 @@ Weapon Model
 Armor Model
 -----------
     save_points
+
+Fight Model
+-----------
+users  :has_many users
+winner
+awarded_coins
+description   (Full description of damage inflicted, winner, coins, etc.)
+
 
 Store Controller (Objects)
 --------------------------
