@@ -3,6 +3,9 @@ FoodieFighters
 
 FoodieFighters - Webserver API for CIS219 class project - Health Fighters
 
+Dave Jones  
+Spokane Community College  
+[http://youtube.com/lockersoft](http://youtube.com/lockersoft/)  
 
 API controls the Health Fighters from various clients that are initially built in
 Android mobile devices.
@@ -11,14 +14,13 @@ Clients interact with the Fighting server through an established API.
 The server performs the fights and provides storage and statistics.
 
 ## Models
+  
 ### User Model
+
+    All the Devise Gem fields
 
     avatar_name
     avatar_image
-    email
-    auth_token
-    password
-    salt
 
     race
     intelligence

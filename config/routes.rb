@@ -1,11 +1,17 @@
 FoodieFighters::Application.routes.draw do
+  get "/home" => "page#home"
+  get "/clients" => "page#clients"
+  get "/battles" => "page#battles"
+  get "/store" => "page#store"
+  root 'page#home'
+  
+  devise_for :users
   mount ApiDocs::Engine => '/api-docs'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

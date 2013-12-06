@@ -32,6 +32,7 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'devise'          # https://github.com/plataformatec/devise
 gem 'api_docs'        # https://github.com/twg/api_docs
 gem 'versionist'
 gem 'rabl'
