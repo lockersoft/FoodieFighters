@@ -37,6 +37,7 @@ gem 'api_docs'        # https://github.com/twg/api_docs
 gem 'versionist'
 gem 'rabl'
 gem 'oj'
+gem 'nokogiri'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'

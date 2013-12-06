@@ -5,3 +5,13 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+require 'nokogiri'
+doc = Nokogiri::XML("Food_Display_Table.xml")
+
+doc.css('Food_Display_Row').each do |node|
+  children = node.children
+
+  puts children.inspect
+
+
+end
