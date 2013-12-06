@@ -10,9 +10,9 @@ Android mobile devices.
 Clients interact with the Fighting server through an established API.
 The server performs the fights and provides storage and statistics.
 
+## Models
+### User Model
 
-User Model
-----------
     avatar_name
     avatar_image
     email
@@ -36,29 +36,35 @@ User Model
     battles_won
     battles_lost
 
-Accessories Model
-------------
+### Accessories Model
     type            (Single Table Inheritance)
     name
     description
     price
 
-Weapon Model &lt; Accessories
-------------
+### Weapon Model &lt; Accessories
     damage_points
 
-Armor Model &lt; Accessories
------------
+### Armor Model &lt; Accessories
     save_points
 
-Fight Model
------------
+### Fight Model
     users  :has_many users
     winner
     awarded_coins
     description   (Full description of damage inflicted/received,stamina lost, winner, coins, etc.)
 
+### Tournaments ???
 
-Store Controller (Objects)
---------------------------
+### Store Controller (Accessories)
+
+### Game Clients
+    name
+    author
+    description
+    site_url
+    help_url
+    apk_file
+    iOS_file
+    windows_exe
 
