@@ -38,6 +38,7 @@ gem 'versionist'
 gem 'rabl'
 gem 'oj'
 gem 'nokogiri'
+gem 'kaminari'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
