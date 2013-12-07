@@ -11,7 +11,38 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131206065129) do
+ActiveRecord::Schema.define(version: 20131207075608) do
+
+  create_table "foods", force: true do |t|
+    t.string   "food_code"
+    t.string   "display_name"
+    t.float    "portion_default"
+    t.float    "portion_amount"
+    t.string   "portion_display_name"
+    t.float    "factor"
+    t.float    "portion_increment"
+    t.float    "multiplier"
+    t.float    "grains"
+    t.float    "whole_grains"
+    t.float    "vegetables"
+    t.float    "orange_vegetables"
+    t.float    "drkgreen_vegetables"
+    t.float    "starchy_vegetables"
+    t.float    "other_vegetables"
+    t.float    "fruits"
+    t.float    "milk"
+    t.float    "meats"
+    t.float    "soy"
+    t.float    "drybeans_peas"
+    t.float    "oils"
+    t.float    "solid_fats"
+    t.float    "added_sugars"
+    t.float    "alcohol"
+    t.float    "calories"
+    t.float    "saturated_fats"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "users", force: true do |t|
     t.string   "email",                                          default: "", null: false

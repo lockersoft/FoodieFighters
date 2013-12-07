@@ -3,9 +3,14 @@ FoodieFighters
 
 FoodieFighters - Webserver API for CIS219 class project - Health Fighters
 
+Created By:  
 Dave Jones  
 Spokane Community College  
 [http://youtube.com/lockersoft](http://youtube.com/lockersoft/)  
+
+Concept By:  
+Doug Thomson  
+Dave Jones  
 
 API controls the Health Fighters from various clients that are initially built in
 Android mobile devices.

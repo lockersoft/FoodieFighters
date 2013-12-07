@@ -1,4 +1,6 @@
 FoodieFighters::Application.routes.draw do
+  resources :foods
+
   get "/home" => "page#home"
   get "/clients" => "page#clients"
   get "/battles" => "page#battles"
